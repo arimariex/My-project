@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 138851544}
   - component: {fileID: 138851543}
   - component: {fileID: 138851542}
+  - component: {fileID: 138851545}
   m_Layer: 0
   m_Name: Square
   m_TagString: Ground
@@ -317,6 +318,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &138851545
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138851541}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &438155729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,24 +1854,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.07553584, y: 0.040451758}
-      - {x: -0.074771255, y: 0.020445585}
-      - {x: -0.054965418, y: 0.01979528}
-      - {x: -0.05489549, y: 0.010533908}
-      - {x: -0.06530605, y: 0.010470846}
-      - {x: -0.065287806, y: -0.009920818}
-      - {x: -0.046245992, y: -0.009769838}
-      - {x: -0.045548894, y: -0.019833706}
-      - {x: -0.03476538, y: -0.02}
-      - {x: -0.03431978, y: -0.030445568}
-      - {x: 0.034931257, y: -0.030394789}
-      - {x: 0.03489835, y: -0.010133717}
-      - {x: 0.07530883, y: -0.009674226}
-      - {x: 0.075714216, y: 0.00064367143}
-      - {x: 0.085341305, y: 0.00048186583}
-      - {x: 0.08580083, y: 0.02129358}
-      - {x: 0.09465093, y: 0.02174534}
-      - {x: 0.095800824, y: 0.040451758}
+    - - {x: -0.074999996, y: 0.06}
+      - {x: -0.095, y: 0.04}
+      - {x: -0.085, y: -0.02}
+      - {x: -0.065, y: -0.049999997}
+      - {x: 0.095, y: -0.049999997}
+      - {x: 0.105, y: -0.03}
+      - {x: 0.105, y: 0.06}
   m_UseDelaunayMesh: 1
 --- !u!212 &1826243126
 SpriteRenderer:

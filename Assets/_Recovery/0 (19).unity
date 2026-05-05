@@ -287,6 +287,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 16136106373060035, guid: 0f6ae8712879c4f40bf6af3fe490badd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,6 +298,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5.26
       objectReference: {fileID: 0}
+=======
+>>>>>>> 317f877772a437778ddfa6e1368673ac351eeece
     - target: {fileID: 224000012685850840, guid: 0f6ae8712879c4f40bf6af3fe490badd,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -307,6 +310,7 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 406236961771009358, guid: 0f6ae8712879c4f40bf6af3fe490badd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -401,6 +405,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -773.1
+=======
+    - target: {fileID: 8774418388143132958, guid: 0f6ae8712879c4f40bf6af3fe490badd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -684.2
+>>>>>>> 317f877772a437778ddfa6e1368673ac351eeece
       objectReference: {fileID: 0}
     - target: {fileID: 8774418388143132958, guid: 0f6ae8712879c4f40bf6af3fe490badd,
         type: 3}
@@ -866,11 +876,19 @@ Camera:
     y: 0
     width: 1
     height: 1
+<<<<<<< HEAD
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
   orthographic size: 2.3
+=======
+  near clip plane: 1
+  far clip plane: 1000
+  field of view: 34
+  orthographic: 1
+  orthographic size: 2.34
+>>>>>>> 317f877772a437778ddfa6e1368673ac351eeece
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1475,7 +1493,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 535e99d9243d2430a8ee89499c1440c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDestroy
+<<<<<<< HEAD
   deathY: -5
+=======
+  deathY: -10
+>>>>>>> 317f877772a437778ddfa6e1368673ac351eeece
 --- !u!60 &1146042261
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2382,7 +2404,11 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d8018247871ab406383e89cc2b63e02f, type: 3}
   m_PlayOnAwake: 1
+<<<<<<< HEAD
   m_Volume: 1
+=======
+  m_Volume: 0.621
+>>>>>>> 317f877772a437778ddfa6e1368673ac351eeece
   m_Pitch: 1
   Loop: 1
   Mute: 0

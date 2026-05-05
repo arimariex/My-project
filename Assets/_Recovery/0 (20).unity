@@ -131,6 +131,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: UserInterface
       objectReference: {fileID: 0}
+    - target: {fileID: 11439034, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439034, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439034, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: m_EditorClassIdentifier
+      value: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439034, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439034, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 11445676, guid: 0f6ae8712879c4f40bf6af3fe490badd, type: 3}
       propertyPath: scoreToWin
       value: 10
